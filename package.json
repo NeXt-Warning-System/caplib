@@ -1,0 +1,30 @@
+{
+  "name": "caplib",
+  "version": "0.0.1",
+  "description": "CAP XML JavaScript library",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "unit-test": "node test.js",
+    "test": "npm run lint && npm run unit-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orgs/NeXt-Warning-System/caplib"
+  },
+  "keywords": [
+    "capxml",
+    "xml",
+    "common",
+    "alerting",
+    "protocol"
+  ],
+  "author": "DEFRA",
+  "license": "OGL-UK-3.0",
+  "dependencies": {
+    "xmlbuilder2": "2.4.0"
+  },
+  "devDependencies": {
+    "standard": "16.0.3"
+  }
+}
