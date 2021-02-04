@@ -9,8 +9,6 @@ info.addParameter('parameter_type', 'silly')
 const area = info.addArea('กรุงเทพมหานคร')
 area.addCircle('100.54386,13.81390 30.99990')
 
-console.log()
-
 const json = `{
   "identifier": "",
   "sender": "",

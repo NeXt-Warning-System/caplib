@@ -346,8 +346,8 @@ Resource.prototype.toJson = function () {
 /**
  * `Area` constructor
  */
-function Area () {
-  this.areaDesc = '' // Required
+function Area (areaDesc) {
+  this.areaDesc = areaDesc // Required
   this.polygons = []
   this.circles = []
   this.geocodes = []
